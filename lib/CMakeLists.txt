@@ -1,0 +1,4 @@
+set(MODE "LIB")#this is for libraries
+GET_DIR_NAME(DIRNAME)
+set(FOLDER_NAME ${DIRNAME})
+ADD_ALL_SUBDIR()
